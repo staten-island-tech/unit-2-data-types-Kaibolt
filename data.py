@@ -19,10 +19,9 @@ print(z)
 print("try it bro")
 ## Get user to type sentence
 ## 4 tries later. This is torture.
-x = input()
-y = x.split()
-z = y[0]
-values = y
-for o in values:
-    print(o)
- 
+sent = input()
+print("Is that your final answer?")
+broken = sent.split()
+print("Ima count that lil bro")
+print(len(broken))
+
