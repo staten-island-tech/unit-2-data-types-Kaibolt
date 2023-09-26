@@ -1,0 +1,12 @@
+print("Hi")
+name = input('What is your name?' )
+print(name)
+print("Why won't this line of code print")
+print('fixed ez')
+print('This line fails too!')
+print('ez')
+print("I think I know how to fix this one")
+print("ez")
+
+name2 = input('Please tell me your name: ')
+print(name2)
