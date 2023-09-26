@@ -5,8 +5,3 @@ if bill > str(10):
 else:
      print("Good choice")
 
-total = (bill + tip)
-
-print(tip)
-print(bill)
-print(total) 
