@@ -26,3 +26,26 @@ print(a1)
 #float makes it a number i think
 print('hi\n\n\n\n\n\n\n\n\nbye')
 # int is whole number and float is decimal
+from datetime import datetime, timedelta
+today = datetime.now()
+print('Today is is: ' + str(today))
+one_day = timedelta(days=1)
+yesterday = today - one_day
+print('Yesterday was ' + str(yesterday))
+bi1 = input('test number 1 ')
+bi2 = input('test number 2 ')
+print('put as a decimal or else money go bye bye')
+tip = input('test tip 1 ')
+tot = ((float(bi1) + float(bi2)) * (float(tip) + float(1)))
+print(tot)
+one_week = timedelta(weeks=1)
+last_week = today - one_week
+print('Fam last week was ' + str(last_week))
+print('Day: ' + str(today.day))
+print('Month: ' + str(today.month))
+print('Year: ' + str(today.year))
+
+print('Hour: ' + str(today.hour))
+print('Minute: ' + str(today.minute))
+print('Second: ' + str(today.second))
+
