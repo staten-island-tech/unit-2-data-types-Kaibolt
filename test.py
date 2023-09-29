@@ -49,3 +49,6 @@ print('Hour: ' + str(today.hour))
 print('Minute: ' + str(today.minute))
 print('Second: ' + str(today.second))
 
+fn1 = input("What is your first name? ")
+if (fn1[0]) == 'A' or 'B':
+    print('Go to room AB')
