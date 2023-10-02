@@ -7,4 +7,3 @@ if (len(first_name)) >= 10:
     lfn = True
 else lfn = False
 if (len(last_name)) >= 10:
-    
